@@ -5,21 +5,21 @@ package Package1;
 public class Arithmetic2 
 {
 	//method1
-	public int div(int r1,int r2)
+	public float div(float r1,float r2)
 	{
-		int r3= r1/r2;
+		float r3= r1/r2;
 		return r3;
 		}
     //method2
-	public int sum(int a,int b)
+	public float sum(float a,float b)
 	{
-		int c= a+b;
+		float c= a+b;
 		return c;
 		}
 	///method3
-	public int sub(int x1,int x2)
+	public float sub(float x1,float x2)
 	{
-		int x3= x1-x2;
+		float x3= x1-x2;
 		return x3;
 	}
 	
@@ -30,17 +30,17 @@ public class Arithmetic2
 	{
 		Arithmetic2 obj= new Arithmetic2();
 		
-		int divresult =obj.div(10, 2);
+		float divresult =obj.div(10, 2);
 		
 		
-		int subresult=obj.sub(divresult, 2);
+		float subresult=obj.sub(divresult, 2);
 		
 		
 		
-		int sumresult=obj.sum(subresult, 2);
+		float sumresult=obj.sum(subresult, 2);
 		
 		
-		int finalsub =obj.sub(sumresult,2);
+		float finalsub =obj.sub(sumresult,2);
 		
 		System.out.println(finalsub);
 		
